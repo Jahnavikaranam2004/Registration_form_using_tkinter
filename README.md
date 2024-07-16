@@ -1,20 +1,28 @@
-Documentation for Registration form
+ Documentation for Registration form
 
 This Python script utilizes Tkinter to create a registration form GUI with entry fields for name, roll number, email, age, college name, and address.
 It includes validation to ensure all fields are filled before form submission. if anyone of the field is not filled then form is not submitted and it shows an message that incomplete form, please fill all the fields.
 after clicking the "Submit" button, appropriate messages are displayed using Tkinter's messagebox module based on the validity of the form data.
 
 Modules used:
-	tkinter: it is Python's standard GUI (Graphical User Interface) toolkit.
-	messagebox: it is a submodule of Tkinter used to display various types of message boxes, such as warnings or information messages etc.
+	
+ 	tkinter: it is Python's standard GUI (Graphical User Interface) toolkit.
+	
+ 	messagebox: it is a submodule of Tkinter used to display various types of message boxes, such as warnings or information messages etc.
+
 
 Main Window (root):
-	tk.Tk(): Creates the main window of the registration form.
-	title("Registration Form"): Sets the title of the window to "Registration Form".
+	
+ 	tk.Tk(): Creates the main window of the registration form.
+	
+ 	title("Registration Form"): Sets the title of the window to "Registration Form".
+
 
 Labels and Entry Fields:
+
 Labels (tk.Label):
-	1)Created for each filed to display information about that field.
+	
+ 	1)Created for each filed to display information about that field.
 	2)Positioned using the grid method with specific row and column indices (row, column). at which row and which column the filed should display.
 	3)for spacing purpose i used padx (x- axis padding) and pady(y-axis padding)and added spacing around the labels for better view.
 
